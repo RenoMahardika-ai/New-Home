@@ -1,207 +1,46 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Undangan Ulang Tahun Anak Ke-2 Kami</title>
-  <meta name="description" content="Undangan ulang tahun anak kami & perkenalan rumah baru" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemberitahuan Undangan Ulang Tahun Selesai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f5f0;
+            color: #333;
+        }
+        .notification-container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+    </style>
 </head>
 <body>
-  <a class="skip-link" href="#konten">Lewati ke konten</a>
-
-  <div class="balloons" aria-hidden="true">
-    <span style="left:8%; --dur:10s; --drift:-24px; background: rgba(255,140,170,.20);"></span>
-    <span style="left:18%; --dur:13s; --drift:26px; background: rgba(124,92,255,.18);"></span>
-    <span style="left:30%; --dur:11s; --drift:-18px; background: rgba(33,212,253,.18);"></span>
-    <span style="left:42%; --dur:14s; --drift:22px; background: rgba(255,209,102,.16);"></span>
-    <span style="left:56%; --dur:12s; --drift:-20px; background: rgba(255,140,170,.18);"></span>
-    <span style="left:68%; --dur:15s; --drift:18px; background: rgba(124,92,255,.16);"></span>
-    <span style="left:80%; --dur:10s; --drift:-26px; background: rgba(33,212,253,.18);"></span>
-    <span style="left:90%; --dur:16s; --drift:14px; background: rgba(255,209,102,.16);"></span>
-  </div>
-
-  <header class="hero">
-    <div class="hero__overlay"></div>
-    <div class="container hero__content">
-      <p class="kicker">Undangan Ulang Tahun</p>
-      <h1 class="hero__title">Anak Ke-2 Kami <span class="hero-confetti" aria-hidden="true">🎉</span></h1>
-      <p class="hero__subtitle">“Mari rayakan momen bahagia bersama-sama”</p>
-
-      <div class="hero__cta">
-        <a class="btn btn-primary" href="#lokasi">Lihat Lokasi</a>
-        <a class="btn btn-ghost" href="#galeri">Lihat Galeri</a>
-      </div>
-
-      <div class="hero__info">
-        <div class="info-card">
-          <div class="info-card__label">Tanggal</div>
-          <div class="info-card__value" id="eventDate">(14 - Juni - 2026)</div>
-        </div>
-        <div class="info-card">
-          <div class="info-card__label">Jam</div>
-          <div class="info-card__value" id="eventTime">(10:00 WIB - Sampai selesai)</div>
-        </div>
-        <div class="info-card">
-          <div class="info-card__label">Dresscode</div>
-          <div class="info-card__value">Bebas / Casual</div>
-        </div>
-      </div>
+    <div class="notification-container">
+        <h1 class="text-3xl font-bold text-amber-800 mb-4">Acara Ulang Tahun Sudah Selesai</h1>
+        <p class="text-gray-600 mb-6">Terima kasih atas kehadiran dan doa Bapak/Ibu/Saudara/i sekalian.</p>
+        <p class="text-gray-600 mb-4">Untuk informasi website menarik lainnya, silakan hubungi:</p>
+        <a href="https://wa.me/6281213562787" class="whatsapp-button" target="_blank">Hubungi Reno Mahardika via WhatsApp</a>
     </div>
-  </header>
-
-  <main id="konten">
-    <section class="section" id="tentang">
-      <div class="container">
-        <div class="section__header">
-          <h2>Tentang Acara</h2>
-          <p>Undangan untuk keluarga dan sahabat tercinta.</p>
-        </div>
-
-        <div class="grid grid-2">
-          <article class="card">
-            <h3 class="card__title">Acara Ulang Tahun Anak Kami</h3>
-            <p class="card__text">
-              Dengan penuh rasa syukur, kami mengundang Teman-teman dan Sahabat untuk hadir.
-              Agar momen ini semakin berarti.
-            </p>
-            <ul class="list">
-              <li><strong>Usia:</strong> 1 Tahun</li>
-              <li><strong>Konsep:</strong> Ceria & hangat</li>
-              <li><strong>Aktivitas:</strong> doa bersama, makan bersama, dan foto bareng</li>
-            </ul>
-          </article>
-
-          <article class="card card--highlight">
-            <h3 class="card__title">Perkenalan Rumah Baru</h3>
-            <p class="card__text">
-              Sekaligus menjadi momen perkenalan rumah baru untuk kita semua.
-              Semoga membawa kebahagiaan dan Keberkahan untuk kami.
-            </p>
-            <div class="divider"></div>
-            <p class="muted">Perumahan Yarra Jl. Puri Bukit Depok Blok A6 No.27 Kabupaten Bogor, Jawa Barat</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="section" id="lokasi">
-      <div class="container">
-        <div class="section__header">
-          <h2>Lokasi Acara</h2>
-          <p>Klik untuk membuka Google Maps.</p>
-        </div>
-
-        <div class="grid grid-2 grid-map">
-          <div class="card">
-            <h3 class="card__title">ALAMAT KAMI</h3>
-            
-            <div class="map-actions">
-              <a class="btn btn-primary btn-block" href="https://maps.app.goo.gl/yF6ScK8DtFqk2LbV8" target="_blank" rel="noopener">
-                Buka di Google Maps
-              </a>
-              <a class="btn btn-ghost btn-block" href="#galeri">Lanjut ke Galeri</a>
-            </div>
-
-            <div class="divider"></div>
-            <p class="muted">
-              Tips: Masuk perumahan lewat jalan samping Alfamart. Setelah pintu gerbang perumahan, terus belok kiri)
-            </p>
-          </div>
-
-          <div class="map-preview" aria-label="Peta lokasi">
-            <iframe
-              src="https://www.google.com/maps?q=https://maps.app.goo.gl/yF6ScK8DtFqk2LbV8&output=embed"
-              allowfullscreen
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <div class="map-preview__note">Klik tombol “Buka di Google Maps” untuk navigasi penuh.</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="galeri">
-      <div class="container">
-        <div class="section__header">
-          <h2>Galeri Foto</h2>
-          <p>Geser/klik untuk melihat foto dengan slide show.</p>
-        </div>
-
-        <div class="gallery">
-          <div class="gallery__viewport">
-            <button class="gallery__nav gallery__nav--prev" type="button" aria-label="Sebelumnya">
-              ‹
-            </button>
-
-            <div class="gallery__slides" data-gallery>
-              <figure class="slide is-active" data-slide>
-                <img src="assets/gallery-1.jpg" alt="Foto anak 1" loading="eager" />
-                <figcaption>Foto ke-1</figcaption>
-              </figure>
-              <figure class="slide" data-slide>
-                <img src="assets/gallery-2.jpg" alt="Foto anak 2" loading="lazy" />
-                <figcaption>Foto ke-2</figcaption>
-              </figure>
-              <figure class="slide" data-slide>
-                <img src="assets/gallery-3.jpg" alt="Foto anak 3" loading="lazy" />
-                <figcaption>Foto ke-3</figcaption>
-              </figure>
-              <figure class="slide" data-slide>
-                <img src="assets/gallery-4.jpg" alt="Foto anak 4" loading="lazy" />
-                <figcaption>Foto ke-4</figcaption>
-              </figure>
-              <figure class="slide" data-slide>
-                <img src="assets/gallery-5.jpg" alt="Foto anak 5" loading="lazy" />
-                <figcaption>Foto ke-5</figcaption>
-              </figure>
-            </div>
-
-            <button class="gallery__nav gallery__nav--next" type="button" aria-label="Berikutnya">
-              ›
-            </button>
-          </div>
-
-          <div class="gallery__dots" data-dots aria-label="Navigasi slide"></div>
-
-          <div class="gallery__actions">
-            <button class="btn btn-ghost" type="button" id="btnPlay">Putar otomatis: ON</button>
-            <button class="btn btn-ghost" type="button" id="btnShuffle">Urutkan ulang</button>
-          </div>
-
-          
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--footer" id="ucapan">
-      <div class="container">
-        <div class="footer-card">
-          <h2 class="footer-card__title">Terima kasih</h2>
-          <p class="footer-card__text">
-            Kami akan sangat senang jika Teman-Teman berkenan hadir.
-            Sampai jumpa di rumah kami
-          </p>
-          <div class="footer-card__row">
-            <div class="tag">Momen bahagia keluarga</div>
-            <div class="tag">1 Tahun • Anak Kami</div>
-            <div class="tag">Doa dan kebersamaan</div>
-          </div>
-        </div>
-
-        <footer class="site-footer">
-          <p>© <span id="year"></span> • DR.</p>
-        </footer>
-      </div>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
-
